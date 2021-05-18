@@ -56,5 +56,34 @@ function validarEmail(){
     }
 }
 
+function entrouT()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#81b29a"
+}
+function saiuT()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#81b29a"
+}
+function entrouA()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#a5a58d"
+}
+function saiuA()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#81b29a"
+}function entrouD()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#00b4d8"
+}
+function saiuD()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#81b29a"
+}
 
 //https://metring.com.br/diferenca-entre-datas-em-javascript

@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
     <title>BORA</title> 
 </head> 
 <body> 
-    <header id="cabecalho">
+    <header id="cabecalho" class="cabeca">
         <h1>JURELE</h1>
         <div>
             <ul>
@@ -22,8 +23,68 @@
             <a href="reservar.html"><input type="button" value="Reserva" id="login"></a>
         </div>
     </header>
-    <section>
+    <section id="servicos">
         <h2>Nossos Serviços</h2>
+        <div class="todos-serviços">
+            <div class="tipo" id="transporte" onmousemove="entrouT()" onmouseout="saiuT()">
+                <div class="titulo">
+                    <h4> Transporte</h4>
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                </div>
+                
+                <div class="preço">
+                <h6>50€</h6>
+                </div>
+                <div  class="opções">
+                    <ul>
+                        
+                        <li> <i class="fa fa-check" aria-hidden="true"></i> Carro</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Barco</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Bicicleta</li>
+
+                    </ul>
+                </div>
+                <input type="button" value="Adquirir">
+            </div>
+            <div class="tipo" id="Alimentação" onmousemove="entrouA()" onmouseout="saiuA()">
+                <div class="titulo">
+                    <h4> Alimentação</h4>
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                </div>
+                <div class="preço">
+                <h6> 70€</h6>
+                </div>
+                <div class="opções">
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Restaurante</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Bares</li>
+                        <li> <i class="fa fa-check" aria-hidden="true"></i>Cafetaria</li>
+                    </ul>
+                </div>
+                 <input type="button" value="Adquirir">
+            </div>
+            <div class="tipo" id="Desporte" onmousemove="entrouD()" onmouseout="saiuD()">
+                <div class="titulo">
+                    <h4> Desporte</h4>
+                    <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                </div>
+                <div class="preço">
+                    <h6>40€</h6>
+                </div>
+                <div class="opções">
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Golfe</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Natação</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Tenis</li>
+                    </ul>
+                </div>
+                <input type="button" value="Adquirir">
+
+            </div>
+        </div>
+        <div id="Azul">
+        
+        </div>
     </section>
     <footer id="rodape">
         <div class="roda">

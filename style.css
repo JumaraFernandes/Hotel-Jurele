@@ -323,4 +323,99 @@ form input:checked[type="checkbox"]
 {
     margin: 20px;
     cursor: pointer;
+
 }
+
+#servicos
+{
+ margin-top: 150px;
+}
+.todos-serviços
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.tipo
+{
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.tipo div
+{
+    padding: 10px;
+}
+.titulo
+{
+ font-size: 20pt;
+}
+.preço
+{
+font-size: 40pt;
+padding: 10px;
+}
+.opções
+{
+   padding: 20px; 
+}
+.opções li
+{
+   padding: 2px; 
+}
+.tipo input
+{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100px;
+}
+#transporte .titulo,
+#transporte input
+{
+    background-color: #81b29a;
+    color: white;
+}
+#Alimentação .titulo,
+#Alimentação input
+{
+    background-color: #a5a58d;
+    color: white;
+}
+#Desporte .titulo,
+#Desporte input
+{
+  background-color:#00b4d8 ;
+  color: white;
+}
+.opções li i
+{
+    color: rgb(55, 205, 50);
+}
+#Azul
+{
+    height: 100px;
+    background-color:#81b29a;
+    margin-top: -200px;
+}
+.tipo
+{
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.tipo:hover
+{
+    transform: scale(1.02);
+}
+.tipo:focus > #Azul
+{
+    background-color: red;
+}
+
+
+
+
